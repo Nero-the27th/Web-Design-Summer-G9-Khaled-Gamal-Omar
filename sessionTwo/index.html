@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h2>Contact Us</h2>
+            <div>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+            </div>
+            <div>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+            </div>
+            <div>
+            <label for="num">Mobile Number:</label>
+            <input type="number" id="num" name="Mobile" placeholder="Enter your Mobile Number" required maxlength="11" pattern="^01[0125][0-9]{8}$">
+            </div>
+            <div>
+            <label for="courses_">Courses:</label>
+            <input type="text" list="courses" id="courses_" name="courses_" placeholder="Select a course" required>
+            <datalist id="courses">
+                <option value="Web Development">
+                <option value="Data Science">
+                <option value="Machine Learning">
+                <option value="Mobile App Development">
+                <option value="Cybersecurity">
+            </datalist>
+            </div>
+            <div>
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" accept="image/png">
+            </div>
+            <div>
+            <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" placeholder="Enter your comment" required></textarea>
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <label>Tracks:</label>
+                <input type="checkbox" id="track1" name="tracks" value="track1" checked>
+                <label for="track1">Track 1</label>
+                <input type="checkbox" id="track2" name="tracks" value="track2">
+                <label for="track2">Track 2</label>
+                <input type="checkbox" id="track3" name="tracks" value="track3">
+                <label for="track3">Track 3</label>
+            </div>
+            <div>
+                <label for="range">Range:</label>
+                <input type="range" id="range" name="range" min="10" max="100">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+        </form>
+</body>
+</html>
