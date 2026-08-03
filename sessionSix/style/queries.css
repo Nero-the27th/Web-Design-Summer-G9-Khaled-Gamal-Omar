@@ -1,0 +1,304 @@
+/*
+   desktop
+*/
+@media (max-width: 1024px) {
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .sec-title {
+    font-size: 40px;
+  }
+
+  .sec .btn,
+  .final-btn {
+    width: 25%;
+  }
+
+  .wellbeing-content,
+  .produce-content {
+    width: 60%;
+  }
+}
+
+/*
+   ipdad
+*/
+@media (max-width: 768px) {
+
+  /* 
+  navbar
+   */
+
+  .navbar {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .navbar ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /*
+  sec 
+  */
+
+  .sec-title {
+    font-size: 32px;
+  }
+
+  .sec-text {
+    font-size: 16px;
+  }
+
+  .sec .btn {
+    width: 40%;
+  }
+
+  .sec-images {
+    flex-direction: column;
+  }
+
+  /* 
+  wellbeing
+   */
+
+  .wellbeing {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wellbeing-content {
+    width: 90%;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .wellbeing-cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .wellbeing-card {
+    align-items: center;
+    text-align: center;
+  }
+
+  .wellbeing-image {
+    display: none;
+  }
+
+  /* 
+  produce
+   */
+
+  .produce {
+    flex-direction: column;
+  }
+
+  .produce-content {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .produce-cards {
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .produce-card {
+    text-align: left;
+  }
+
+  /* 
+  final
+  */
+
+  .final-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .final-text {
+    width: 90%;
+  }
+
+  .final-btn {
+    width: 35%;
+  }
+
+  .final-cards {
+    flex-wrap: wrap;
+    height: auto;
+    bottom: -320px;
+    padding: 8% 5%;
+    row-gap: 20px;
+  }
+
+  .final-card {
+    width: 40%;
+    margin-right: 0;
+  }
+
+  /* 
+  footer
+   */
+
+   footer {
+    margin-top: 70%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: nowrap;
+  }
+  .footer-links .col {
+    width: 20%;
+    text-align: center;
+  }
+}
+
+/*
+  phones
+ */
+@media (max-width: 480px) {
+
+  .container {
+    padding: 0 16px;
+  }
+
+  /* 
+  navbar
+   */
+
+  .navbar .nav-links {
+    display: none;
+  }
+
+  .navbar .nav-icon {
+    display: flex;
+  }
+
+  /*
+  sec
+   */
+
+  .sec-title {
+    font-size: 26px;
+  }
+
+  .sec-text {
+    font-size: 15px;
+  }
+
+  .sec .btn {
+    width: 60%;
+  }
+
+  /* 
+  wellbeing
+   */
+  .wellbeing-title {
+    font-size: 28px;
+  }
+
+  .wellbeing-image {
+    width: 100%;
+  }
+
+  /* 
+  produce
+   */
+
+  .produce-title {
+    font-size: 28px;
+  }
+
+  .produce-content {
+    width: 100%;
+  }
+
+  .produce-card p {
+    font-size: 14px;
+  }
+
+  /* 
+  final
+  */
+
+  .final-title {
+    font-size: 24px;
+  }
+
+  .final-btn {
+    width: 55%;
+  }
+
+  .final-cards {
+    bottom: -500px;
+    width: 60%;
+    text-align: center;
+  }
+
+  .final-card {
+    width: 60%;
+  }
+
+  .final-card p {
+    font-size: 14px;
+  }
+
+
+  /* 
+  footer
+   */
+
+   footer {
+    margin-top: 145%;
+  }
+
+  .footer-links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links .col {
+  flex: 1 1 40%;
+  box-sizing: border-box;
+  margin-right: 0;    
+  padding: 10px;   
+  text-align: center;
+}
+}
+
+@media(max-width: 360px) {
+  .final-cards {
+    bottom: -560px;
+    width: 60%;
+    margin-bottom: 7%;
+  }
+
+  footer {
+    margin-top: 200%;
+  }
+}
