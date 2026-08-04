@@ -1,0 +1,53 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+     color: #2b2b2b; 
+}
+a { 
+    text-decoration: none;
+     color: inherit; 
+}
+ul { 
+    list-style: none; 
+}
+  img { 
+     display: block; 
+}
+ 
+  .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /*
+  section
+  */
+
+  .bg-dark{
+    background-color: #333;
+    color: #fff;
+    position: relative;
+  }
+
+  .bg-dark img{
+    position: absolute;
+    top: 0;
+    right: -120px;
+    animation: drive 2s linear infinite;
+  }
+
+  @keyframes drive {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1400px);
+  }
+  
+}
