@@ -44,7 +44,7 @@ ul {
 
   @keyframes drive {
   0% {
-    transform: translateX(0);
+    transform: translateX(190px);
   }
   100% {
     transform: translateX(-1400px);
