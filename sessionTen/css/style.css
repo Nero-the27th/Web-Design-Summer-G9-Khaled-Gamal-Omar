@@ -1,0 +1,15 @@
+#cardsRow {
+  display: none;
+}
+
+#cardsColumn {
+  display: block;
+}
+
+#cardsRow:target {
+  display: flex;
+}
+
+#cardsRow:target ~ #cardsColumn {
+  display: none;
+}
